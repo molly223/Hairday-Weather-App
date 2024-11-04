@@ -26,7 +26,7 @@ function formatDate(date) {
     let day = days[date.getDay()];
 
     if (minutes < 10) {
-        minutes = `0${minutes}`;
+        minutes = `0${minutes}`: minutes;
     }
 
     let period = hours >= 12 ? 'PM' : 'AM';
