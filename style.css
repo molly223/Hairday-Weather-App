@@ -1,0 +1,96 @@
+body {
+    background: url("https://media.cntraveler.com/photos/59de395b18d971147f4bcc8e/4:3/w_3036,h_2277,c_limit/Seattle-Space-Needle_GettyImages-180262211.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+header {
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+
+.weather-app {
+    background: #ffffff;
+    border: 1px solid #60a5fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.search-input {
+    background: #ffffff;
+    border: 10px;
+    border-color: #1e3a8a;
+    border-radius: 7px;
+    width: 85%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.search-button {
+    background: #60a5fa;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.search-button:hover {
+    background-color: #1e3a8a;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-details strong {
+    color: #60a5fa;
+}
+
+.current-city {
+    font-size: 50px;
+    color: #1e3a8a;
+
+}
+
+.city-details {
+    color: #6b7280;
+}
+
+.temperature-container {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1e3a8a;
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.weather-icon {
+    width: 65px;
+}
+
+footer {
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5)
+}
